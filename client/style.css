@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card, #app {
+    width: 30vw;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.466);
+}
+
+.card h2 {
+    text-align: center;
+}
+
+.card p {
+    margin-top: 5px;
+    text-align: justify;
+}

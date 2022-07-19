@@ -1,0 +1,23 @@
+{
+  "name": "17-cursomanipulaciondearrays-js",
+  "version": "1.0.0",
+  "description": "Este es mi desarrollo de un curso para el trabajo optimo con arreglos en JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan33pro/CursoManipulacionDeArrays-JS.git"
+  },
+  "author": "DanielCG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dan33pro/CursoManipulacionDeArrays-JS/issues"
+  },
+  "homepage": "https://github.com/dan33pro/CursoManipulacionDeArrays-JS#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "nodemon": "^2.0.19"
+  }
+}

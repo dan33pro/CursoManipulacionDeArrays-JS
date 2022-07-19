@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map()</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="card">
+        <h2>¿Qué hace .map()</h2>
+        <p>
+            Transforma además .map() es INMUTABLE por lo tanto
+             no modifica el array original, sino que crea uno 
+             nuevo con la “transformación” aplicada. 
+        </p>
+        <p>
+            Además, mantienes el mismo length que 
+            el array original, te devuelve en el nuevo 
+            array la misma cantidad que el array que le 
+            aplicaste el método.
+        </p>
+    </div>
+    <div id="app"></div>
+    <script>
+        const products = [
+            { title: 'Hamburgesa', price: 12000 },
+            { title: 'Piza', price: 6000 },
+        ];
+        const app = document.getElementById('app');
+        const list = products.map(product => {
+            return `<li>${product.title} - ${product.price}</li>`;
+        });
+        // Join aplana el array en un string, pero eso lo veremos luego
+        app.innerHTML = list.join('');
+    </script>
+</body>
+</html>
