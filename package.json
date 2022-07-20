@@ -19,5 +19,8 @@
   "devDependencies": {
     "http-server": "^0.12.3",
     "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "date-fns": "^2.28.0"
   }
 }
